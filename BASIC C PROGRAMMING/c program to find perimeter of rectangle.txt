@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+    int l,w,p;
+
+    printf("enter the lenth of rectangle :\n");
+    scanf("%d",&l);
+
+    printf("enter the width of rectangle :\n");
+    scanf("%d",&w);
+
+    p=2*(l+w);
+
+    printf("the perimeter of rectangle :%d\n",p);
+
+
+
+    return 0;
+}

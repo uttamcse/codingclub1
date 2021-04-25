@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+  int s1,s2,s3;
+
+  printf("enter the first side :");
+  scanf("%d",&s1);
+
+   printf("enter the first side :");
+  scanf("%d",&s2);
+
+   printf("enter the first side :");
+  scanf("%d",&s3);
+
+  if((s1+s2)>s3 && (s1+s3)>s2 &&(s2+s3)>s1)
+  {
+      printf("triangle is vailid");
+  }
+  else
+    {
+    printf("triangle is not vailid");
+  }
+
+
+    return 0;
+}
+

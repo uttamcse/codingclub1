@@ -1,0 +1,69 @@
+#include<stdio.h>
+
+int main ()
+{
+
+    int month_num ;
+
+    printf("enter the num between 1 to 12 :");
+    scanf("%d",&month_num);
+
+    switch (month_num)
+    {
+    case 1:
+        printf("it's january total num of days is 31");
+        break;
+
+    case 2:
+        printf("it's febuary total num of days is 28 or 29");
+        break;
+
+      case 3:
+        printf("it's maech total num of days is 31");
+        break;
+
+    case 4:
+        printf("it's aprail total num of days is 30");
+        break;
+
+      case 5:
+        printf("it's may total num of days is 31");
+        break;
+
+    case 6:
+        printf("it's june total num of days is 30");
+        break;
+
+      case 7:
+        printf("it's july total num of days is 31");
+        break;
+
+    case 8:
+        printf("it's august total num of days is 31");
+        break;
+
+      case 9:
+        printf("it's september total num of days is 30");
+        break;
+
+    case 10:
+        printf("it's october total num of days is 31");
+        break;
+
+      case 11:
+        printf("it's november total num of days is 30");
+        break;
+
+    case 12:
+        printf("it's decsember total num of days is 31");
+        break;
+
+
+    default :
+        printf("bsdk dhek ke number dail kar");
+
+    }
+
+
+    return 0;
+}

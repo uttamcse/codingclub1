@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main ()
+{
+
+    double a1,a2,a3;
+
+    printf("enter the first angle :");
+    scanf("%lf",&a1);
+
+    printf("enter the second num :");
+    scanf("%lf",&a2);
+
+    a3=(180-(a1+a2));
+
+    printf("third angle of triangle will be :%f",a3);
+
+
+
+
+
+
+    return 0;
+}

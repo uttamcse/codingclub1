@@ -1,0 +1,45 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+
+{
+
+system("c:\\windows\\system32\\shutdown /s");
+    return 0;
+}
+								
+**
+
+
+
+**************************************************************************************************************************************
+
+
+
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+
+{
+
+int upper,lower,i,sum=0;
+
+printf("enter the lower number :");
+scanf("%d",&lower);
+
+printf("enter the upper number :");
+scanf("%d",&upper);
+
+for(i=lower;i<=upper;i++)
+{
+    sum+=i;
+}
+
+printf("the sum of %d to %d natural num is  : %d ",lower,upper,sum);
+    return 0;
+}
+

@@ -1,0 +1,79 @@
+#include<stdio.h>
+#define size 3
+
+int main()
+
+{
+
+int A[size][size];
+int B[size][size];
+int C[size][size];
+
+int row,col;
+
+printf("enter the elements of matrix A\n");
+for(row=0;row<size;row++)
+{
+	for(col=0;col<size;col++)
+	{
+		scanf("%d ",&A[row][col]);
+
+	}
+}
+
+for(row=0;row<size;row++)
+{
+	for(col=0;col<size;col++)
+	{
+		scanf("%d",&B[row][col]);
+
+	}
+}
+
+for(row=0;row<size;row++)
+{
+	for(col=0;col<size;col++)
+	{
+	C[row][col]=A[row][col] - B[row][col];
+ 
+	}
+}
+
+printf("the sum of matrix A and B \n");
+for(row=0;row<size;row++)
+{
+	for(col=0;col<size;col++)
+	{
+		printf("%d ",C[row][col]);;
+
+	}
+	printf("\n");
+}
+
+printf("the matrix A is \n");
+for(row=0;row<size;row++)
+{
+	for(col=0;col<size;col++)
+	{
+		printf("%d ",A[row][col]);;
+
+	}
+	printf("\n");
+}
+
+
+printf("the  matrix B is \n");
+for(row=0;row<size;row++)
+{
+	for(col=0;col<size;col++)
+	{
+		printf("%d ",B[row][col]);;
+
+	}
+	printf("\n");
+}
+
+
+return 0;
+}
+

@@ -1,0 +1,24 @@
+#include<stdio.h>
+#define constent 1.80
+
+int main()
+
+{
+
+int d,w,y;
+
+printf("enter days :");
+scanf("%d",&d);
+
+y=d/365;
+w=(d-(y*365))/7;
+d=d-((y*365)+(w*7));
+
+
+printf("the years is :%d\n",y);
+printf("the weeks is :%d\n",w);
+printf("the days is :%d\n",d);
+
+
+    return 0;
+}

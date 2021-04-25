@@ -1,0 +1,63 @@
+#include<stdio.h>
+
+int main ()
+
+{
+
+int num1,num2,sum,multi,sub,div;
+
+
+printf("enter the first num :");
+scanf("%d",&num1);
+
+printf("enter the second num :");
+scanf("%d",&num2);
+
+int*ptr1=&num1;
+int*ptr2=&num2;
+
+sum=*ptr1+*ptr2;
+sub=*ptr1 -  *ptr2;
+multi=*ptr1 * *ptr2;
+div=*ptr1  / *ptr2;
+
+printf("the sum of %d and %d is %d\n",num1,num2,sum);
+printf("the sub of %d and %d is %d\n",num1,num2,sub);
+printf("the multiple of %d and %d is %d\n",num1,num2,multi);
+printf("the div of %d and %d is %d\n",num1,num2,div );
+
+	
+	return 0;
+}
+
+
+#include<stdio.h>
+#define pi 3.14 
+
+int main ()
+
+{
+
+int l,h,w,area ;
+
+printf("please enter the hight ");
+scanf("%d",&h);
+
+printf("please enter the length ");
+scanf("%d",&l);
+
+
+printf("please enter the withd ");
+scanf("%d",&w);
+
+int*ptrl=&l;
+int*ptrh=&h;
+int*ptrw=&l;
+
+area=((*ptrl)*(*ptrh)*(*ptrw));
+
+printf("area is %d",area);
+
+
+	return 0;
+}

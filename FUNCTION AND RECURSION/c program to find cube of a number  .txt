@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+
+double cube(double num)
+{
+    return(num*num*num);
+}
+int main()
+
+{
+int num ;
+
+
+printf("enter the num for cube :");
+scanf("%d",&num);
+
+printf("the cube of %d is %f\n",num,cube(num));
+
+
+
+   return 0;
+}
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+
+double cube(double num)
+{
+  printf("the cube is %f\n",(num*num*num));
+}
+int main()
+
+{
+int num ;
+
+
+cube(6);
+cube(5);
+cube(2);
+cube(4);
+
+
+
+
+
+   return 0;
+}
+
+

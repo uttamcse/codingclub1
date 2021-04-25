@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+char alpha;
+
+printf("alphabet btween a to z is :\n");
+for(alpha='Z';alpha>='A';alpha--)
+{
+    printf("%c\t",alpha);
+}
+
+
+   return 0;
+}
+

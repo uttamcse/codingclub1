@@ -1,0 +1,82 @@
+#include<stdio.h>
+#include<math.h>
+
+int prime(int num)
+{
+int i;
+for(i=2;i<=num/2;i++)
+{
+    if(num%i==0)
+    {
+        return 0;
+    }
+}
+return 1;
+}
+int armstrong(int num)
+{
+int start,end,sum,digit;
+sum=0;
+digit=(int)log10(num)+1;
+while(num>0)
+{
+    end=num%10;
+
+    sum=sum+round(pow(end,digit));
+    num=num/10;
+}
+return (start==sum);
+}
+int perfect(int num)
+{
+int i,sum,n;
+sum=0;
+n=num;
+for(i=1;i<n;i++)
+{
+    if(n%i==0)
+    {
+        sum+=i;
+    }
+}
+return (num==sum);
+}
+int main()
+{
+    int num;
+
+    printf("enter the num to check :");
+    scanf("%d",&num);
+
+    if(prime(num))
+    {
+        printf("%d is a prime number\n",num);
+    }
+    else
+    {
+        printf("%d is not a prime num\n",num);
+    }
+
+
+    if(armstrong(num))
+    {
+        printf("%d is a armstrong number\n",num);
+    }
+    else
+    {
+        printf("%d is not a armostrong num\n",num);
+    }
+    if(perfect(num))
+    {
+        printf("%d is a perfect number\n",num);
+    }
+    else
+    {
+        printf("%d is not a perfect num\n",num);
+    }
+    perfect(num);
+    armstrong(num);
+    prime(num);
+
+    return 0;
+}

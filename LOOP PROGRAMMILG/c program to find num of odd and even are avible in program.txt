@@ -1,0 +1,42 @@
+#include<stdio.h>
+#define max_size 100
+
+int main()
+
+{
+	
+int i,odd=0,even=0;
+int lower,upper,oddsum=0,evensum=0;
+
+printf("please enter the lower limit :");
+scanf("%d",&lower);
+
+printf("please enter the upper limit :");
+scanf("%d",&upper);
+
+	odd=0;
+	even=0;
+for(i=lower;i<=upper;i++)
+{
+
+	if(i%2==0)
+	{
+		even++;
+		evensum=evensum+i;
+	}
+	else{
+		odd++;
+		oddsum=oddsum+i;
+	}
+}
+
+printf("odd num is %d\n",odd);
+printf("even num is %d\n",even);
+
+printf("odd sum is %d\n",oddsum);
+printf("even sum is %d\n",evensum);
+
+return 0;
+}
+
+

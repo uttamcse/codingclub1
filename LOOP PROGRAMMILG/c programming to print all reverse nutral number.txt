@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int main()
+
+{
+int num ,i=0;
+
+printf("enter the num :");
+scanf("%d",&num );
+
+printf("natural num from 1 to %d is given below: \n",num);
+
+for(i=1;i>=num;i--)
+{
+    printf("%d\t",i);
+}
+   return 0;
+}
+
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+
+{
+int start,end ,i=0;
+
+printf("enter the end value :");
+scanf("%d",&end );
+
+printf("enter the start value :");
+scanf("%d",&start );
+
+printf("natural num from %d to %d is given below: \n",end,start);
+
+for(i=end;i>=start;i--)
+{
+    printf("%d\t",i);
+}
+   return 0;
+}
+

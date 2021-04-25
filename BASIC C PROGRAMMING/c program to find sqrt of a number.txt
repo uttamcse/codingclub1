@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+
+{
+    double num,root;
+
+printf("please enter the num for sqrt :");
+scanf("%lf",&num);
+
+
+root=sqrt(num);
+
+
+printf("square root of %f is  is %.2f\n",num,root);
+
+
+    return 0;
+}

@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+
+    printf("please enter the first num :\n");
+    scanf("%d",&a);
+
+    printf("please enter the second num :\n");
+    scanf("%d",&b);
+
+
+    printf("the sum of %d and %d is : %d\n",a,b,a+b);
+    printf("the difference of %d and %d is : %d\n",a,b,a-b);
+    printf("the product of %d and %d is : %d\n",a,b,a*b);
+    printf("the quotient of %d and %d is : %d\n",a,b,a/b);
+    printf("the modulus of %d and %d is : %d\n",a,b,a%b);
+
+
+
+
+    return 0;
+}

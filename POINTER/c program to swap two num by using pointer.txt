@@ -1,0 +1,31 @@
+#include<stdio.h>
+#define pi 3.14 
+
+int main ()
+
+{
+
+int a,b;
+
+
+printf("please enter the hight ");
+scanf("%d",&a);
+
+printf("please enter the length ");
+scanf("%d",&b);
+
+int*ptra=&a;
+int*ptrb=&b;
+
+printf("a is %d\n",*ptra);
+printf("b is %d\n",*ptrb);
+
+*ptra=*ptra+*ptrb;
+*ptrb=*ptra-*ptrb;
+*ptra=*ptra-*ptrb;
+
+printf("a is %d\n",*ptra);
+printf("b is %d\n",*ptrb);
+
+	return 0;
+}

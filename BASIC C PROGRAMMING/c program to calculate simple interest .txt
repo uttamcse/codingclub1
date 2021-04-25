@@ -1,0 +1,24 @@
+#include<stdio.h>
+#define pi 3.14
+
+int main ()
+{
+
+    double p,t,r,si;
+
+    printf("please enter the principal amount :");
+    scanf("%lf",&p);
+
+    printf("please enter the rate :");
+    scanf("%lf",&r);
+
+    printf("please enter the time :");
+    scanf("%lf",&t);
+
+si=(p*t*r)/100;
+
+printf("simple interest is :%.2f",si);
+
+
+    return 0;
+}

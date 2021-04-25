@@ -1,0 +1,37 @@
+#include <stdio.h>
+#define pi 3.14
+#include<math.h>
+
+int oddevenfunc (int num)
+{
+    if(num%2==0)
+    {
+        printf("%d is even \n",num);
+    }
+
+    else
+        {
+         printf("%d is odd\n",num);
+        }
+
+}
+
+int main()
+
+{
+    int num;
+    while(1)
+    {
+        printf("enter the number to check number is even or odd :");
+        scanf("%d",&num);
+
+
+        oddevenfunc(num);
+
+
+
+    }
+    return 0;
+}
+
+

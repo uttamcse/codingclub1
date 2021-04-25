@@ -1,0 +1,30 @@
+#include<stdio.h>
+#define pi 3.14 
+
+int main ()
+
+{
+	
+	int num1,num2,i,hcf,min;
+	
+	printf("enter the first num :");
+	scanf("%d",&num1);
+		
+	printf("enter the second num :");
+	scanf("%d",&num2);
+	
+	min=(num1<num2) ? num1:num2;
+	
+	for(i=1;i<=min;i++)
+	{
+		if(num1%i==0 && num2%i==0)
+		{
+			hcf=i;
+		}
+		
+	}
+	printf("the hcf of %d and %d is %d",num1,num2,hcf);
+
+	
+return 0;
+}

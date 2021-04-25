@@ -1,0 +1,51 @@
+#include<stdio.h>
+#define size 3 
+
+int main()
+
+{
+
+int A[2][3];
+int B[2][3];
+
+int row,col;
+
+printf("enter the element of matrix A \n");
+for(row=0;row<2;row++)
+{
+	for(col=0;col<3;col++)
+	{
+		scanf("%d",&A[row][col]);
+	}
+}
+
+printf("enter the element of matrix B \n");
+for(row=0;row<2;row++)
+{
+	for(col=0;col<3;col++)
+	{
+		scanf("%d",&B[row][col]);
+	}
+}
+printf("matrix A\n");
+for(row=0;row<2;row++)
+{
+	for(col=0;col<3;col++)
+	{
+		printf("%d ",A[row][col]);
+	}
+	printf("\n");
+}
+printf("matrix B\n");
+	for(row=0;row<2;row++)
+	{
+		for(col=0;3<size;col++)
+		{
+			printf("%d ",B[row][col]);
+		}
+		printf("\n");
+	}
+
+return 0;
+}
+

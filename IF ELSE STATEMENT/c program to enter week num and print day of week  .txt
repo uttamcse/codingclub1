@@ -1,0 +1,51 @@
+#include <stdio.h>
+int main( )
+{
+   int num ;
+
+    printf ( "Enter the number : " );
+    scanf ( "%d", &num );
+
+
+    if(num==1)
+    {
+        printf("monday");
+    }
+
+     else if(num==2)
+    {
+        printf("tuesday");
+    }
+
+    else if(num==3)
+    {
+        printf("wednesday");
+    }
+
+     if(num==4)
+    {
+        printf("thursday");
+    }
+
+     if(num==5)
+    {
+        printf("friday");
+    }
+
+     if(num==6)
+    {
+        printf("satrday");
+    }
+
+     if(num==7)
+    {
+        printf("sunday");
+    }
+
+    else
+        {
+        printf("bsdk ke dekh ke number dail kar...................");
+        }
+    return 0;
+}
+

@@ -1,0 +1,78 @@
+#include <stdio.h>
+int main( )
+{
+  int a1,a2,a3,sum;
+
+  printf("enter the first angle :");
+  scanf("%d",&a1);
+
+   printf("enter the first angle :");
+  scanf("%d",&a2);
+
+   printf("enter the first angle :");
+  scanf("%d",&a3);
+
+  sum =a1+a2+a3;
+
+  if(sum == 180 && a1>0 && a2>0 && a3>0)
+  {
+      printf("it is a vailid triangle");
+  }
+else
+{
+   printf("it is not a vailid triangle");
+}
+
+    return 0;
+}
+
+
+
+
+
+
+#include<stdio.h>
+#define pi 3.14
+#include<math.h>
+#include<ctype.h>
+
+int main ()
+
+{
+
+
+int a1,a2,a3,sum=0;
+
+printf("please enter the first angle :");
+scanf("%d",&a1);
+
+printf("please enter the second angle :");
+scanf("%d",&a2);
+
+
+printf("please enter the third angle :");
+scanf("%d",&a3);
+
+sum=a1+a2+a3;
+
+if(sum==180 && a1>0&&a2>0&&a3>0)
+{
+
+	printf("it's a vailid triangle\n");
+}
+
+else
+{
+		printf("it's not a  vailid triangle\n");
+		if(sum<180)
+	{
+		printf(" beacose the sum of angle is less than 180\n");
+	}
+	else
+	{
+		printf(" beacose the sum of angle is gretter than 180\n");
+	}
+
+}
+	return 0;
+}

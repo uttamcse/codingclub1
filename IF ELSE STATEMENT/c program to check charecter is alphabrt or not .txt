@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main( )
+{
+   char c ;
+    printf ( "Enter the charecter to cheack alphavate nor not : " );
+    scanf ( "%c", &c );
+
+
+    if (( c>='a' && c<='z')||(c>='A' && c<='Z') )
+    {
+        printf ( " %c IS ALPHABET ",c);
+    }
+
+
+    else
+    {
+        printf("%c IS NOT ALPHABET",c);
+    }
+    return 0;
+}
+

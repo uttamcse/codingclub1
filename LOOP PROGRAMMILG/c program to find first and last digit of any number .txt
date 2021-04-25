@@ -1,0 +1,81 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+int num ,ld,sld,tld,fld;
+
+printf("enter the number :");
+scanf("%d",&num);
+
+ld=num%10;
+sld=num%100;
+tld=num%1000;
+fld=num%10000;
+
+printf("the last digit is :%d\n",ld);
+printf("the second last two digit is :%d\n",sld);
+printf("the third last three digit is :%d\n",tld);
+printf("the fourth last four digit is :%d\n",fld);
+
+    return 0;
+}
+
+
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int num ,fd;
+
+printf("enter the number :");
+scanf("%d",&num);
+
+fd=num;
+
+while(fd>=10)
+{
+    fd=fd/10;
+}
+
+printf("the first digit is :%d\n",fd);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int num,first,last,sum=0;
+
+printf("enter the num :");
+scanf("%d",&num);
+
+last = num%10;
+first = num;
+
+while(first>=10)
+{
+    first=first/10;
+}
+
+
+printf("last num of digit %d is %d\n",num,last);
+printf("first num of digit %d is %d\n",num,first);
+
+    return 0;
+}

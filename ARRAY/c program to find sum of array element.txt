@@ -1,0 +1,33 @@
+#include<stdio.h>
+#define max_size 100
+
+int main()
+
+{
+	
+	int arr[max_size];
+	int num,i,sum=0;
+	
+	printf("enter the num do you want print array : ");
+	scanf("%d",&num);
+	
+	printf("please enter the array element \n");
+	
+	for(i=0;i<num;i++)
+	{
+		scanf("%d",&arr[i]);
+	}
+
+	printf("array is give below :");
+	
+	for(i=0;i<num;i++)
+	{
+		printf("%d\t",arr[i]);
+	}
+	for(i=0;i<num;i++)
+	{
+	sum=sum+arr[i];
+	}
+		printf("\n the sum of array is %d ",sum);
+	return 0;
+}

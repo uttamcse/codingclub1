@@ -1,0 +1,34 @@
+#include <stdio.h>
+int main( )
+{
+   char c ;
+    printf ( "Enter the charecter to cheack vowel or constent : " );
+    scanf ( "%c", &c );
+
+if(c=='a'||c=='A')
+{
+    printf("vowel");
+}
+if(c=='e'||c=='E')
+{
+    printf("vowel");
+}
+if(c=='I'||c=='i')
+{
+    printf("vowel");
+}
+if(c=='o'||c=='O')
+{
+    printf("vowel");
+}
+if(c=='U'||c=='u')
+{
+    printf("vowel");
+}
+else
+{
+    printf("constent");
+}
+    return 0;
+}
+

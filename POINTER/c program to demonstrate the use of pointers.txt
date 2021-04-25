@@ -1,0 +1,80 @@
+#include<stdio.h>
+
+int main ()
+
+{
+
+int num =5;
+char alpha='u';
+double ld=7987985937;
+float f=78.98;
+
+
+
+printf("the value of num is %d\n",num);
+printf("the value of alpha is %c\n",alpha);
+printf("the value of ld is %f\n",ld);
+printf("the value of f is %f \n",f);
+
+printf("the address of num is %u\n",&num);
+printf("the address of alpha is %u\n",&alpha);
+printf("the address of ld is %u\n",&ld);
+printf("the address of f is %u\n",&f);
+	
+	
+	return 0;
+}
+
+
+
+
+
+#include<stdio.h>
+
+int main ()
+
+{
+
+int num =5;
+char alpha='u';
+double ld=7987985937;
+float f=78.98;
+
+
+int*ptrn=&num;
+char*ptra=&alpha;
+double*ptrld=&ld;
+float*ptrf=&f;
+
+printf("the value of give pointer is ..................\n");
+printf("the value of num is %d\n",num);
+printf("the value of alpha is %c\n",alpha);
+printf("the value of ld is %f\n",ld);
+printf("the value of f is %f \n",f);
+
+
+printf("the value of num is %d\n",*ptrn);
+printf("the value of alpha is %c\n",*ptra);
+printf("the value of ld is %f\n",*ptrld);
+printf("the value of f is %f \n",*ptrf);
+
+
+printf("the address of give pointer is ..................\n");
+
+
+printf("the address of num is %u\n",ptrn);
+printf("the address of alpha is %u\n",ptra);
+printf("the address of ld is %u\n",ptrld);
+printf("the address of f is %u\n",ptrf);
+
+
+printf("the address of num is %u\n",&num);
+printf("the address of alpha is %u\n",&alpha);
+printf("the address of ld is %u\n",&ld);
+printf("the address of f is %u\n",&f);
+		
+	
+
+	
+	return 0;
+}

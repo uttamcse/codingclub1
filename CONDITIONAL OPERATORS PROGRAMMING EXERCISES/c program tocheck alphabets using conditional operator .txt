@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main ()
+{
+
+char a;
+
+printf("enter any char :");
+scanf("%c",&a);
+
+(a>='a' && a<='z')||(a>='A'&& a<='Z') ? printf("alpha") : printf("const");
+
+    return 0;
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+#define constent 1.80
+
+int main()
+
+{
+
+float c,f;
+
+printf("enter the tempature in celsious :");
+scanf("%f",&c);
+
+f=(c*constent)+32;
+
+printf("the tempature in fahrenheit is :%.2f",f);
+
+
+    return 0;
+}

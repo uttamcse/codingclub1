@@ -1,0 +1,52 @@
+#include <stdio.h>
+int main( )
+{
+
+int angle;
+
+printf("enter the angle : ");
+scanf("%d",&angle);
+
+
+if(angle>=0 && angle<90)
+{
+
+    printf("acute angle");
+}
+else if (angle==90)
+{
+
+    printf("right angle");
+}
+
+else if (angle>90 && angle<180)
+{
+
+    printf("obtuse angle");
+}
+
+else if (angle==180)
+{
+
+    printf("straight angle");
+}
+
+else if (angle>180 && angle<360)
+{
+
+    printf("reflex angle");
+}
+
+else if (angle==360)
+{
+
+    printf("complete angle");
+}
+
+else
+    {
+    printf("angle is not define");
+    }
+   return 0;
+}
+

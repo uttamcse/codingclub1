@@ -1,0 +1,37 @@
+#include<stdio.h>
+#define max_size 100
+
+int main()
+
+{
+	
+int sour[max_size],copy[max_size];
+int size,i;
+
+printf("enter the size of array : ");
+scanf("%d",&size);
+
+for(i=0;i<size;i++)
+{
+	scanf("%d",&sour[i]);
+}
+
+for(i=0;i<size;i++)
+{
+	copy[i]=sour[i];
+}
+
+printf("\nelement of sourse array is given below\n ");
+for(i=0;i<size;i++)
+{
+	printf("%d\t",sour[i]);
+}
+
+printf("\nelement of copy array is given below \n");
+for(i=0;i<size;i++)
+{
+	printf("%d\t",copy[i]);
+}
+return 0;
+}
+

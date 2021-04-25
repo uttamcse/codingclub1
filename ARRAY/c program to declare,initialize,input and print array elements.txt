@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<math.h>
+#define max_size 1000
+
+int main ()
+
+{
+
+int arr[ max_size];
+int i,num;
+
+printf("enter the size of array : ");
+scanf("%d",&num);
+
+
+printf(" please enter all %d element of the array one by one  \n",num);
+for(i=0;i<num;i++)
+{
+	scanf(" %d",&arr[i]);
+}
+printf("element in array is given below :\n");
+for(i=0;i<num;i++)
+{
+	printf("%d ,",arr[i]);
+}
+	return 0;
+}

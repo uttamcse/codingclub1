@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main ()
+
+{
+	float rupee,doller;
+	char s='s';
+	
+	printf("enter the rupee to convert in doller :");
+	scanf("%f",&rupee);
+	
+	doller=rupee/73.44;/*dec in 2020*/
+	if (rupee>1)
+	{
+		printf("doller in %.2f rupee%c is %.2f ",rupee,s,doller);	
+	}
+	else
+	{
+		printf("doller in %.2f rupee is %.2f ",rupee,doller);
+		
+	}
+	
+
+	
+
+	
+	return 0;
+}

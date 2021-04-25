@@ -1,0 +1,92 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+
+{
+
+int upper,lower,i,sum=0;
+
+printf("enter the lower number :");
+scanf("%d",&lower);
+
+printf("enter the upper number :");
+scanf("%d",&upper);
+
+for(i=lower;i<=upper;i++)
+{
+    if(i%2!=0)
+    {
+       sum+=i;
+    }
+
+}
+
+printf("the sum of %d to %d even num is  : %d ",lower,upper,sum);
+    return 0;
+}
+
+
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+
+{
+
+int upper,lower,i,sum=0;
+
+printf("enter the lower number :");
+scanf("%d",&lower);
+
+printf("enter the upper number :");
+scanf("%d",&upper);
+
+for(i=lower;i<=upper;i++)
+{
+    if(i%2!=0)
+    {
+       sum-=i;
+    }
+
+}
+
+printf("the sum of %d to %d even num is  : %d ",lower,upper,sum);
+    return 0;
+}
+
+
+
+
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+
+{
+
+int upper,lower,i,sum=0;
+
+printf("enter the lower number :");
+scanf("%d",&lower);
+
+printf("enter the upper number :");
+scanf("%d",&upper);
+
+for(i=lower;i<=upper;i++)
+{
+    if(i%2!=0)
+    {
+       sum+=i;
+    }
+
+}
+
+printf("the sum of %d to %d even num is  : %d ",lower,upper,sum);
+    return 0;
+}
+

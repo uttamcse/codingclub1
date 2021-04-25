@@ -1,0 +1,54 @@
+#include <stdio.h>
+int main( )
+{
+   char a ;
+
+    printf ( "Enter the charecter to cheack vowel or constent : " );
+    scanf ( "%c", &a );
+
+if(a>='a' && a<='z')
+{
+     printf("lowercase");
+
+}
+else if(a>='A'&& a<='Z')
+{
+    printf("UPPERCASE");
+}
+else
+{
+    printf("not a chrecter");
+}
+
+    return 0;
+}
+
+
+
+
+
+#include <stdio.h>
+int main( )
+{
+   char a ;
+
+    printf ( "Enter the charecter to cheack vowel or constent : " );
+    scanf ( "%c", &a );
+
+if(islower(a))
+{
+     printf("lowercase");
+
+}
+else if(isupper(a))
+{
+    printf("UPPERCASE");
+}
+else
+{
+    printf("not a chrecter");
+}
+
+    return 0;
+}
+

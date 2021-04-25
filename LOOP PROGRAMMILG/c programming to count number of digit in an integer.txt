@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+
+{
+
+long long num;
+
+int count=0;
+
+printf("enter any num to count num of digit :");
+scanf("%lld",&num);
+
+do
+{
+    count++;
+    num/=10;
+}
+while(num!=0);
+
+printf("total digit in num is : %d",count);
+   return 0;
+}
+
+
+
+
+ #include<stdio.h>
+#include<math.h>
+int main ()
+{
+
+long long num;
+int count=0,one=1;
+
+
+
+printf("enter the num to count the num :");
+scanf("%lld",&num);
+
+
+count = (num==0) ? 1 : (log10(num)+1);
+
+printf("%d",count);
+   return 0;
+}

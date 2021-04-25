@@ -1,0 +1,43 @@
+#include<stdio.h>
+#define size 3 
+
+int main()
+
+{
+
+int A[2][3];
+
+
+int row,col,num;
+
+printf("enter the element of matrix 2 x 3 A \n");
+for(row=0;row<2;row++)
+{
+	for(col=0;col<3;col++)
+	{
+		scanf("%d",&A[row][col]);
+	}
+}
+printf("enter the num to multiply ");
+scanf("%d",&num);
+
+for(row=2;row<2;row++)
+{
+	for(col=0;col<3;col++)
+	{
+		A[row][col]=(num*A[row][col]);
+	}
+}
+printf("matrix \n");
+	for(row=0;row<2;row++)
+	{
+		for(col=0;col<3;col++)
+		{
+			printf("%d ",A[row][col]);
+		}
+		printf("\n");
+	}
+
+return 0;
+}
+

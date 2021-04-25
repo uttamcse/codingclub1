@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+    int a,b,c;
+
+
+    printf("please enter the first num :\n");
+    scanf("%d",&a);
+
+    printf("please enter the second num :\n");
+    scanf("%d",&b);
+
+    c=a+b;
+    printf("the sum of %d and %d is : %d\n",a,b,a+b);//type 1
+    printf("the sum of %d and %d is : %d\n",a,b,c);//type 2
+
+
+
+    return 0;
+}

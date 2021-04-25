@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main( )
+{
+
+int s1,s2,s3;
+
+printf("enter the first side : ");
+scanf("%d",&s1);
+
+printf("enter the second side : ");
+scanf("%d",&s2);
+
+printf("enter the third side : ");
+scanf("%d",&s3);
+
+if(s1==s2 && s2==s3)
+{
+
+    printf("equiletral trangle");
+}
+else if (s1==s2 ||s1==s3)
+{
+
+    printf("isoscale trangle");
+}
+else
+    {
+    printf("scalane triangle");
+    }
+   return 0;
+}
+

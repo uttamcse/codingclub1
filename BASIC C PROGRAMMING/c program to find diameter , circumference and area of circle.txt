@@ -1,0 +1,56 @@
+#include<stdio.h>
+#define pi 3.14
+#include<math.h>
+
+int main ()
+
+{
+double radius ,area,circum,dim;
+char c='s';
+
+	
+printf("please enter the radius :")	;
+scanf("%lf",&radius);
+
+
+area=pi*radius*radius;
+circum=2*pi*radius;
+dim=2*radius;
+
+if(radius>1)
+{
+printf("the radius of circle is %.2lf meter%c\n",radius,c);	
+}
+else
+{
+printf("the radius of circle is %.2lf meter\n",radius);	
+}
+if(dim>1)
+{
+printf("the dimeter of circle is %.2lf meter%c\n",dim,c);	
+}
+else
+{
+printf("the diameter of circle is %.2lf meter\n",dim);	
+}
+if(area>1)
+{
+printf("the area of circle is %.2lf meter%c\n",area,c);	
+}
+else
+{
+	printf("the area of circle is %.2lf meter\n",area);
+}
+if(circum>1)
+{
+printf("the curcumference of circle is %.2lf meter%c\n",circum,c);	
+}
+else
+{
+	
+printf("the curcumference of circle is %.2lf meter\n",circum);
+}
+
+
+	return 0;
+}

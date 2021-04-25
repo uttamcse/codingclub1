@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+
+{
+    double b,e,p;
+
+printf("please enter the base  :");
+scanf("%lf",&b);
+
+printf("please enter the expo  :");
+scanf("%lf",&e);
+
+p=pow(b,e);
+
+
+printf("power is %.2f\n",p);
+
+
+    return 0;
+}

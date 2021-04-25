@@ -1,0 +1,98 @@
+#include<stdio.h>
+#define max_size 100
+
+int main()
+
+{
+
+int arr[max_size];
+int size,i,j,k,count=0;
+
+printf("please enter the size of array : ");
+scanf("%d",&size);
+
+printf("please enter the array element\n");
+for(i=0;i<size;i++)
+{
+	scanf("%d",&arr[i]);
+}
+
+for(i=0;i<size;i++)
+{
+	for(j=i+1;j<size;j++)
+	{
+		if(arr[j]==arr[i])
+		{
+		count++;
+		break;
+			for(k=j;k<size;k++)
+			{
+				arr[k]=arr[k+1];
+			}
+			size--;
+			j--;
+		}
+	}
+}
+printf("\narra element after deliting duplicate ");
+for(i=0;i<size;i++)
+{
+	printf("%d\t",arr[i]);	
+}
+printf("total num of duplicate element is %d\n",count);
+
+return 0;
+}
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+#define max_size 100
+
+int main()
+
+{
+
+int arr[max_size];
+int size,i,j,k,count=0;
+
+printf("please enter the size of array : ");
+scanf("%d",&size);
+
+printf("please enter the array element\n");
+for(i=0;i<size;i++)
+{
+	scanf("%d",&arr[i]);
+}
+
+for(i=0;i<size;i++)
+{
+	for(j=i+1;j<size;j++)
+	{
+		if(arr[j]==arr[i])
+		{
+			for(k=j;k<size;k++)
+			{
+				arr[k]=arr[k+1];
+			}
+			size--;
+			j--;
+		}
+	}
+}
+printf("\narra element after deliting duplicate ");
+for(i=0;i<size;i++)
+{
+	printf("%d\t",arr[i]);	
+}
+printf("total num of duplicate element is %d\n",count);
+
+return 0;
+}
+

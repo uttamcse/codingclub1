@@ -1,0 +1,34 @@
+#include<stdio.h>
+#define max_size 100
+
+int main()
+
+{
+
+int arr[max_size];
+int size,i,j,count=0;
+
+printf("please enter the size of array : ");
+scanf("%d",&size);
+
+printf("please enter the array element\n");
+for(i=0;i<size;i++)
+{
+	scanf("%d",&arr[i]);
+}
+
+for(i=0;i<size;i++)
+{
+	for(j=i+1;j<size;j++)
+	{
+		if(arr[i]==arr[j])
+		{
+			count++;
+			break;
+		}
+	}
+}
+printf("total num of duplicate element is %d",count);
+return 0;
+}
+

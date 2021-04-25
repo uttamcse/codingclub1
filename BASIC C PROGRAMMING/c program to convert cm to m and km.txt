@@ -1,0 +1,36 @@
+#include<stdio.h>
+#define pi 3.14
+
+int main ()
+{
+
+    double m1,m2,m3,m4,m5,avg,total,per;
+
+
+    printf("enter the marks of first subject  :");
+    scanf("%lf",&m1);
+
+        printf("enter the marks of second subject  :");
+    scanf("%lf",&m2);
+
+        printf("enter the marks of third subject  :");
+    scanf("%lf",&m3);
+
+        printf("enter the marks of fourth subject  :");
+    scanf("%lf",&m4);
+
+        printf("enter the marks of fivth subject  :");
+    scanf("%lf",&m5);
+
+    avg=((m1+m2+m3+m4+m5)/5);
+    total=(m1+m2+m3+m4+m5);
+     per=(total*100)/500;
+
+     printf("average is %.2f\n ",avg);
+     printf("total is %.2f\n",total);
+     printf("percentage is %.2f\n ",per);
+
+
+
+    return 0;
+}
